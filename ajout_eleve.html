@@ -1,0 +1,58 @@
+<!doctype HTML>
+<HTML>
+  <HEAD>
+    <meta charset="utf-8">
+    <LINK REL="stylesheet" HREF="style.css" type="text/css">
+    <title>Ajout eleve</title>
+
+  </HEAD>
+
+  <BODY>
+    <h1>Ajout élève</h1>
+    <FORM  METHOD='POST' ACTION="valider_eleve.php">
+      <TABLE>
+        <TR>
+          <TD>
+            Nom :
+          </TD>
+          <td>
+            <INPUT type="text" NAME="nom" required="required">
+          </td>
+        </TR>
+        <tr>
+          <TD>
+            Prénom :
+          </TD>
+          <td>
+            <INPUT type="text" NAME="prenom" required="required">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Date de naissance : </td>
+          <td>
+            <input type="date" name="dateNaiss" required="required">
+          </td>
+
+        </tr>
+
+        <Tr>
+          <td>
+            <INPUT VALUE="Envoyer" class="button" TYPE="SUBMIT">
+            <INPUT VALUE="Réinitialiser" class="button_res" TYPE="RESET">
+          </td>
+        </tr>
+
+      </TABLE>
+
+
+
+
+      <BR>
+    </FORM>
+
+
+  </BODY>
+
+</HTML>

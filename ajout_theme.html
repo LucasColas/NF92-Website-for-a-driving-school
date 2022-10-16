@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajout Thème</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <h2>Ajout d'un thème</h2>
+    <form action= "ajouter_theme.php" method="post">
+      <table>
+        <tr>
+          <td>Nom du thème: </td>
+          <td><input type="text" name="theme" required='required'/> </td>
+        </tr>
+        <tr>
+          <td>Descriptif: </td>
+          <td><TEXTAREA NAME="descriptif" ROWS="10" COLS="50" required> </TEXTAREA ></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" value="Traiter" class="button">
+              <INPUT VALUE="Réinitialiser" class="button_res" TYPE="RESET"></td>
+        </tr>
+      </table>
+
+
+    </form>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,98 @@
+h1:hover {
+  text-decoration: underline;
+  text-align:center;
+}
+
+h1 {
+  text-align:center;
+}
+
+
+h2:hover {
+  text-decoration: underline;
+  text-align:center;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align:center;
+
+}
+
+a:visited {
+  color: blue;
+}
+
+
+a {
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  /*L'arrière-plan est limité au texte en premier plan*/
+  background-clip: text;
+
+  /*gère les limites de la zone d'arrière plan */
+  -webkit-background-clip: text; /*extension spécifique */
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  color:blue;
+  font-size:20px:
+}
+
+a:hover {
+  /*color: #000033;*/
+  background-position: 0 100%;
+}
+
+li {
+
+  font-size: 20px;
+}
+
+li:hover {
+
+  text-decoration: underline;
+  /*color: black;*/
+  /*font-weight: bold;*/
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.button_res {
+  background-color: #fe0000; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.button_res:hover {
+  background-color: #dc0c0c; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+tr.spaceUnder>td { /*Espace entre deux lignes d'une table*/
+  padding-bottom: 15pt;
+}
